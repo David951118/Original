@@ -137,6 +137,21 @@ nav button{
 
 }
 
+.table{
+  border:1px solid black;
+  border-collapse: collapse;
+  margin: auto; 
+}
+.td{
+  padding: 1rem;
+  border:1px solid black;
+  background-color: #e7e7e7;
+}
+
+.thead{
+  background-color: black;
+  color: white;
+}
 .article img{
     width: 1220px;
     height: 580px;
@@ -278,5 +293,17 @@ nav{
   
   .container-buttons .seven::after {
     content: "\f02d";
+    display: block;
+  }
+  .container-buttons .ocho {
+    background-color:rgb(213, 241, 48);
+  }
+  
+  .container-buttons .ocho::before {
+    content: '\f07c';
+  }
+  
+  .container-buttons .ocho::after {
+    content: "\f07c";
     display: block;
   }
